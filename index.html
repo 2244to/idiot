@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="pl">
+<meta charset="utf-8" />
+<title>Prank – demo z zgodą</title>
+<style>
+  html,body{height:100%;margin:0;background:#000;display:grid;place-items:center;}
+  video{max-width:100%;max-height:100%;}
+  button{font-size:1.2rem;padding:.6rem 1rem;border-radius:12px;border:0;cursor:pointer}
+</style>
+<body>
+  <video id="vid" src="idiot.mp4" preload="auto"></video>
+  <div>
+    <button id="go">Start w pełnym ekranie</button>
+  </div>
+  <script>
+    const v = document.getElementById('vid');
+    document.getElementById('go').onclick = async () => {
+      try { await v.requestFullscreen?.(); } catch(e) {}
+      v.play();
+    };
+  </script>
+</body>
+</html>
