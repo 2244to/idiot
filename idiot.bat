@@ -1,3 +1,2 @@
-color a
-echo a
-pause
+start "" ms-photos:viewer?file=idiot.gif
+start "" idiot.mp3
