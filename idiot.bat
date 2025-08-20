@@ -1,2 +1,1 @@
-explorer idiot.gif
-explorer idiot.mp3
+powershell -c (New-Object Media.SoundPlayer "$PWD\idiot.mp3").PlaySync()
