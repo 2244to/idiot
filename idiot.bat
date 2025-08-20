@@ -1,2 +1,2 @@
-start "" idiot.gif
-start "" idiot.mp3
+start "" ms-photos:viewer?file=%CD%\idiot.gif
+start wmplayer "%CD%\idiot.mp3"
