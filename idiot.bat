@@ -1,0 +1,2 @@
+color a
+echo a
