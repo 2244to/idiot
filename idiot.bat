@@ -1,3 +1,3 @@
 winget install ffmpeg
-ffplay -nodisp -autoexit idiot.mp3
+ffplay -nodisp -autoexit "C:\Temp\idiot-main\idiot.mp3"
 pause
